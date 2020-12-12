@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style>
+     *{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+.leaderboard
+{
+  max-width:25rem;
+
+  margin:5rem auto;
+   box-shadow: 2px 2px 16px 1px #aaa;
+  border-radius:1rem;
+  font-family:sans-serif;
+}
+header
+{
+  background-color:#ff7500;
+  color:white;
+  text-transform:uppercase;
+  border-top-left-radius:1rem;
+  border-top-right-radius:1rem;
+ height:14rem;
+  position:relative;
+  
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+table
+{
+  background-color:#16181e;
+  color:#999;
+  border-collapse:collapse;
+  width:100%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow:hidden;
+}
+thead
+{
+  font-size:0.75rem;
+  text-transform:uppercase;
+  color:#555;
+}
+
+tbody .name
+{
+  color:white;
+  font-weight:bold;
+}
+tbody tr:nth-child(2n)
+{
+  background-color:#1f232c;
+}
+.sp
+{
+  text-align:right;
+}
+.kd
+{
+  text-align:right;
+}
+.name
+{
+  text-align:left;
+}
+td
+{
+  padding:1rem 1rem;
+}
+th
+{
+  padding:1.5rem 1rem 0.5rem;
+}
+.sp,.kd
+{
+  width:8ch;
+}
+.rank
+{
+  width:4ch;
+}
+a
+{
+  font-size:0.9rem;
+  
+}
+h1
+{
+  font-size:3rem;
+  line-height:3rem;
+  position:absolute;
+  top:4rem;
+  margin-left:3rem;
+  
+}
+nav a + a{
+  margin-left:1rem;
+}
+
+img
+{
+  height:16rem;
+  position:absolute;
+  bottom:0;
+  right:1rem;
+}
+nav
+{
+  position:absolute;
+  bottom:0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    transparent 10%,
+    rgba(22, 22, 22, 0.5)
+  );
+}
+nav a:first-child
+{
+  margin-left:3rem;
+}
+nav a
+{
+  padding-top:1rem;
+  padding-bottom:1rem;
+  display:inline-block;
+  font-weight:bold;
+}
+a.active
+{
+  border-bottom:4px solid #f0a900;
+}
+   </style>
+  </head>
+  <body>
+<div class="leaderboard">
+  <header>
+    <h1>Leader Board</h1>
+    <img src="https://i.imgur.com/xUSrEpd.png" alt="image">
+    <nav>
+      <a href="" class="active">Solo</a>
+      <a href="">Duo</a>
+      <a href="">Squad</a>
+      <a href="">Solo FPP</a>
+    </nav>
+  </header>
+  <table>
+    <thead>
+      <tr>
+        <th class=""></th>
+        <th class="name">NickName</th>
+        <th class="sp">Sp</th>
+        <th class="kd">K/D</>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="rank">1</td>
+        <td class="name">Sumanth</td>
+        <td class="sp" >6.308</td>
+        <td class="kd">4.8</td>
+      </tr>
+       <tr>
+        <td class="rank">2</td>
+        <td class="name">Nithin</td>
+        <td class="sp">6.301</td>
+        <td class="kd">4.5</td>
+      </tr>
+       <tr>
+        <td class="rank">3</td>
+        <td class="name">Tushar</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+       <tr>
+        <td class="rank">4</td>
+        <td class="name">Phaneendhar</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+       <tr>
+        <td class="rank">5</td>
+        <td class="name">Prashanth</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+       <tr>
+        <td  class="rank">6</td>
+        <td class="name">Sai Nath</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+       <tr>
+        <td class="rank">7</td>
+        <td class="name">Karthik</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+      <tr>
+        <td class="rank">8</td>
+        <td class="name">Sunil</td>
+        <td class="sp">5.108</td>
+        <td class="kd">2.1</td>
+      </tr>
+       
+      
+    </tbody>
+  </table>
+  
+</div>
+  </body>
+</html>
